@@ -1,0 +1,138 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+
+    font-size: 16px;
+    font-family: sans-serif;
+
+    color: #ffffff;
+    background-color: #434343;
+}
+
+.Korean {
+}
+
+.English {
+    display: none;
+}
+
+.Emphasize {
+    font-weight: bold;
+
+    color: #ddf6fc;
+}
+
+.Language {
+    position: absolute;
+
+    top: 1.2rem;
+    right: 1rem;
+    width: 4rem;
+    height: 1.5rem;
+}
+
+.Title,
+.Subtitle {
+    word-break: keep-all;
+
+    font-weight: bold;
+}
+
+.Title {
+    margin-right: 5rem;
+    margin-bottom: 0.5rem;
+
+    font-size: 2rem;
+
+    color: #ecf3df;
+}
+
+.Subtitle {
+    margin-bottom: 1.5rem;
+
+    color: #efe8eb;
+}
+
+@media (max-width: 425px) {
+    .Title {
+        font-size: 1.5rem;
+    }
+}
+
+.InputContainer {
+    margin-bottom: 0.5rem;
+}
+
+.InputLabel {
+    display: block;
+}
+
+.Input {
+    width: 4rem;
+}
+
+.Run {
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.BoardContainer {
+    text-align: center;
+}
+
+.Board {
+    display: inline-block;
+
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Section {
+    margin-bottom: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Result {
+    margin-bottom: 1rem;
+}
+
+.Line {
+    margin-bottom: 0.5rem;
+}
+
+.LinkContainer {
+    margin-bottom: 0.5rem;
+}
+
+.LinkContainer:last-child {
+    margin-bottom: 3rem;
+}
+
+.Link {
+    font-weight: bold;
+}
+
+.Link,
+.Link:visited {
+    color: #ddf6fc;
+}
+
+.Link:hover,
+.Link:active {
+    color: #b0b9cf;
+}
