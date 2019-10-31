@@ -4,12 +4,12 @@ var Util = (function () {
     function Util() {
     }
 
-    Util.getAllElements = function (id) {
-        return document.getElementsByClassName(id);
+    Util.getAllElements = function (className) {
+        return document.getElementsByClassName(className);
     };
 
-    Util.getElement = function (id) {
-        return this.getAllElements(id)[0];
+    Util.getElement = function (className) {
+        return this.getAllElements(className)[0];
     };
 
     Util.forEach = function (data, onIterate) {
