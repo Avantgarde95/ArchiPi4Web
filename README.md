@@ -1,4 +1,4 @@
-# ArchiPi4Web
+# archipi-web (ArchiPi4Web)
 
 ### About
 - JavaScript port of [ArchiPi](https://github.com/Avantgarde95/ArchiPi).
